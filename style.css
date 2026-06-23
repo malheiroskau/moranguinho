@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tecnologias Digitais</title>
+    <style>
+        /* Define a cor de fundo, margem global e o tipo de fonte */
+        body {
+            background-color: #e6f7ff;
+            margin: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333333;
+        }
+
+        /* Centraliza o título principal e altera sua cor */
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        /* Estiliza o subtítulo */
+        h2 {
+            color: #16a085;
+            font-size: 22px;
+            margin-top: 0;
+        }
+
+        /* Cria uma caixa com borda, espaçamento interno (padding) e margem */
+        .conteudo-principal {
+            border: 3px solid #16a085;
+            border-radius: 8px;
+            padding: 20px;
+            background-color: #ffffff;
+            margin-bottom: 20px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Altera o tamanho da fonte do parágrafo e o espaçamento entre linhas */
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Estilização para o nome do autor */
+        .autor {
+            font-style: italic;
+            color: #555555;
+            font-size: 16px;
+            text-align: right;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Mundo Digital</h1>
+
+    <div class="conteudo-principal">
+        
+        <h2>O que são Tecnologias Digitais?</h2>
+        
+        <p>
+            As tecnologias digitais são um conjunto de ferramentas, sistemas automatizados, dispositivos e recursos 
+            tecnológicos que processam e armazenam dados em formato digital. Elas transformaram profundamente a forma 
+            como a humanidade se comunica, trabalha, estuda e consome informação, englobando desde computadores e smartphones 
+            até a internet, computação em nuvem e inteligência artificial.
+        </p>
+        
+    </div>
+
+    <p class="autor">Autor: kauany emanuelli</p>
+
+</body>
+</html>
