@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Feed de Publicações</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">DevFeed</div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Página Inicial</a></li>
+                <li><a href="#">Explorar</a></li>
+                <li><a href="#">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="feed-container">
+        
+        <article class="post">
+            <img src="https://picsum.photos/600/400?random=1" alt="Imagem da publicação 1" class="post-img">
+            <div class="post-content">
+                <h2 class="post-title">Explorando Novas Tecnologias</h2>
+                <p class="post-description">Hoje comecei a estudar mais sobre o desenvolvimento web moderno e as melhores práticas de UI/UX. O futuro é brilhante!</p>
+                <div class="post-actions">
+                    <button class="btn-action btn-like">❤️ Curtir</button>
+                    <button class="btn-action btn-comment">💬 Comentar</button>
+                    <button class="btn-action btn-share">🚀 Compartilhar</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="post">
+            <img src="https://picsum.photos/600/400?random=2" alt="Imagem da publicação 2" class="post-img">
+            <div class="post-content">
+                <h2 class="post-title">Minha Estação de Trabalho</h2>
+                <p class="post-description">Organizei meu setup para melhorar a produtividade desta semana. Menos distrações, mais foco no código.</p>
+                <div class="post-actions">
+                    <button class="btn-action btn-like">❤️ Curtir</button>
+                    <button class="btn-action btn-comment">💬 Comentar</button>
+                    <button class="btn-action btn-share">🚀 Compartilhar</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="post">
+            <img src="https://picsum.photos/600/400?random=3" alt="Imagem da publicação 3" class="post-img">
+            <div class="post-content">
+                <h2 class="post-title">Café e Linhas de Código</h2>
+                <p class="post-description">A combinação perfeita para resolver aquele bug que estava me incomodando desde ontem. Quem mais se identifica?</p>
+                <div class="post-actions">
+                    <button class="btn-action btn-like">❤️ Curtir</button>
+                    <button class="btn-action btn-comment">💬 Comentar</button>
+                    <button class="btn-action btn-share">🚀 Compartilhar</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="post">
+            <img src="https://picsum.photos/600/400?random=4" alt="Imagem da publicação 4" class="post-img">
+            <div class="post-content">
+                <h2 class="post-title">Aprendendo CSS Grid</h2>
+                <p class="post-description">Dominar layouts bidimensionais parecia difícil, mas o CSS Grid facilita muito a nossa vida de desenvolvedor.</p>
+                <div class="post-actions">
+                    <button class="btn-action btn-like">❤️ Curtir</button>
+                    <button class="btn-action btn-comment">💬 Comentar</button>
+                    <button class="btn-action btn-share">🚀 Compartilhar</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="post">
+            <img src="https://picsum.photos/600/400?random=5" alt="Imagem da publicação 5" class="post-img">
+            <div class="post-content">
+                <h2 class="post-title">Projeto Concluído!</h2>
+                <p class="post-description">Mais um site entregue com sucesso. Orgulho em ver o resultado final de tanto esforço e dedicação.</p>
+                <div class="post-actions">
+                    <button class="btn-action btn-like">❤️ Curtir</button>
+                    <button class="btn-action btn-comment">💬 Comentar</button>
+                    <button class="btn-action btn-share">🚀 Compartilhar</button>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido com ❤️ por <strong>kauany emanuelli</strong> &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
